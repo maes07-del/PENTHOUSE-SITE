@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THE PENTHOUSE - Restaurant premium à Avedji, Lomé. Fine cuisine, cocktails signature et ambiance exclusive. Ouvert jusqu'à 2h du matin. Réservation WhatsApp.">
+    <meta name="keywords" content="restaurant premium Lomé, restaurant Avedji Lomé, best restaurant Lomé, late night restaurant Lomé, fine dining Togo">
+    <meta name="author" content="THE PENTHOUSE">
+    <title>THE PENTHOUSE - Restaurant Premium à Lomé | Fine Dining & Cocktails</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>THE PENTHOUSE</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#reviews" class="nav-link">Avis</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">THE PENTHOUSE</h1>
+                <p class="hero-subtitle">Une Expérience Culinaire Élevée à Lomé</p>
+                <p class="hero-description">Fine cuisine, cocktails signature et atmosphère exclusive — où chaque instant devient exceptionnel.</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/22871923333?text=Bonjour%2C%20je%20souhaite%20réserver%20une%20table" class="btn btn-primary" target="_blank">
+                        💬 Réserver sur WhatsApp
+                    </a>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=653J%2BRW+Lomé" class="btn btn-secondary" target="_blank">
+                        📍 Itinéraire
+                    </a>
+                    <a href="tel:+22871923333" class="btn btn-outline">
+                        📞 Appeler
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">À THE PENTHOUSE, le repas est une expérience conçue pour ceux qui apprécient l'élégance, la qualité et l'atmosphère.</p>
+                    <p>Situé à Avedji, Lomé, notre restaurant réunit une cuisine raffinée, des boissons premium et un cadre sophistiqué idéal pour les dîners intimes, les célébrations et les soirées inoubliables.</p>
+                    <p>De la première impression au dernier goût, chaque détail est soigneusement conçu pour dépasser les attentes.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">🍽️</div>
+                        <h3>Cuisine Raffinée</h3>
+                        <p>Menu soigneusement élaboré avec des ingrédients frais et des saveurs audacieuses</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍸</div>
+                        <h3>Cocktails Signature</h3>
+                        <p>Boissons artisanales créées pour compléter chaque moment</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3>Ambiance Exclusive</h3>
+                        <p>Cadre sophistiqué pour dîners romantiques et célébrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Menu</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Notre menu reflète une passion pour l'excellence. Chaque plat est préparé avec des ingrédients frais, des saveurs audacieuses et une présentation artistique, tandis que nos cocktails sont conçus pour compléter chaque instant.</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="food">Plats</button>
+                <button class="menu-tab" data-category="drinks">Boissons</button>
+                <button class="menu-tab" data-category="cocktails">Cocktails</button>
+            </div>
+            <div class="menu-content">
+                <!-- Food Menu -->
+                <div class="menu-category active" id="food">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Plat Signature du Chef</h3>
+                            <span class="menu-price">15,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Notre spécialité maison, préparée avec des ingrédients premium et une présentation raffinée</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Poulet Rôti aux Herbes</h3>
+                            <span class="menu-price">12,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Poulet mariné aux herbes fraîches, servi avec accompagnements de saison</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Poisson Grillé Premium</h3>
+                            <span class="menu-price">14,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Poisson frais du jour, grillé à la perfection avec légumes de saison</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Pâtes Artisanales</h3>
+                            <span class="menu-price">10,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Pâtes fraîches préparées sur place avec sauce maison et fromage premium</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Salade Premium</h3>
+                            <span class="menu-price">8,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Mélange de légumes frais, fromage et vinaigrette maison</p>
+                    </div>
+                </div>
+
+                <!-- Drinks Menu -->
+                <div class="menu-category" id="drinks">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Vin Rouge Premium</h3>
+                            <span class="menu-price">8,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Sélection de vins rouges importés, verre ou bouteille</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Vin Blanc</h3>
+                            <span class="menu-price">8,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Vins blancs rafraîchissants, parfaits pour accompagner vos plats</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Champagne</h3>
+                            <span class="menu-price">25,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Champagne premium pour célébrer vos moments spéciaux</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Jus de Fruits Frais</h3>
+                            <span class="menu-price">3,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Jus pressés à la minute, disponibles en plusieurs saveurs</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Eau Minérale / Soft Drinks</h3>
+                            <span class="menu-price">2,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Boissons fraîches et eau minérale</p>
+                    </div>
+                </div>
+
+                <!-- Cocktails Menu -->
+                <div class="menu-category" id="cocktails">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Penthouse Signature</h3>
+                            <span class="menu-price">6,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Notre cocktail signature, créé exclusivement pour THE PENTHOUSE</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mojito Premium</h3>
+                            <span class="menu-price">5,000 FCFA</span>
+                        </div>
+                        <p class="menu-description">Mojito classique avec menthe fraîche et rhum premium</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Cosmopolitan</h3>
+                            <span class="menu-price">5,500 FCFA</span>
+                        </div>
+                        <p class="menu-description">Cocktail élégant au vodka, cranberry et citron vert</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Old Fashioned</h3>
+                            <span class="menu-price">6,500 FCFA</span>
+                        </div>
+                        <p class="menu-description">Whisky, sucre, angostura et zeste d'orange</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Margarita Premium</h3>
+                            <span class="menu-price">5,500 FCFA</span>
+                        </div>
+                        <p class="menu-description">Tequila premium, triple sec et citron vert frais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galerie</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Découvrez l'ambiance, les plats et les moments inoubliables de THE PENTHOUSE</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <!-- REMPLACEZ L'URL CI-DESSOUS par l'URL directe de l'image depuis Google Maps -->
+                    <!-- Pour obtenir l'URL : Ouvrez https://maps.app.goo.gl/nZg7WyMWecagAhs99, cliquez sur la photo, puis clic droit > "Copier l'adresse de l'image" -->
+                    <img 
+                        src="" 
+                        alt="Plat Premium - THE PENTHOUSE"
+                        class="gallery-image"
+                        loading="lazy">
+                    <div class="gallery-placeholder">
+                        <span>🍽️</span>
+                        <p>Plat Premium</p>
+                        <small>Cliquez pour voir sur Google Maps</small>
+                    </div>
+                    <a href="https://maps.app.goo.gl/nZg7WyMWecagAhs99" target="_blank" class="gallery-overlay" rel="noopener noreferrer">
+                        <p>🍽️ Plat Premium</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <!-- REMPLACEZ L'URL CI-DESSOUS par l'URL directe de l'image depuis Google Maps -->
+                    <img 
+                        src="" 
+                        alt="Cocktail Signature - THE PENTHOUSE"
+                        class="gallery-image"
+                        loading="lazy">
+                    <div class="gallery-placeholder">
+                        <span>🍸</span>
+                        <p>Cocktail Signature</p>
+                        <small>Cliquez pour voir sur Google Maps</small>
+                    </div>
+                    <a href="https://maps.app.goo.gl/Gk7HqrApkVX9rxqP7" target="_blank" class="gallery-overlay" rel="noopener noreferrer">
+                        <p>🍸 Cocktail Signature</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <!-- REMPLACEZ L'URL CI-DESSOUS par l'URL directe de l'image depuis Google Maps -->
+                    <img 
+                        src="" 
+                        alt="Boisson Premium - THE PENTHOUSE"
+                        class="gallery-image"
+                        loading="lazy">
+                    <div class="gallery-placeholder">
+                        <span>🍷</span>
+                        <p>Boisson Premium</p>
+                        <small>Cliquez pour voir sur Google Maps</small>
+                    </div>
+                    <a href="https://maps.app.goo.gl/Wh5UsbHaWZcXstjC9" target="_blank" class="gallery-overlay" rel="noopener noreferrer">
+                        <p>🍷 Boisson Premium</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <!-- REMPLACEZ L'URL CI-DESSOUS par l'URL directe de l'image depuis Google Maps -->
+                    <img 
+                        src="" 
+                        alt="Spécialité Maison - THE PENTHOUSE"
+                        class="gallery-image"
+                        loading="lazy">
+                    <div class="gallery-placeholder">
+                        <span>🥘</span>
+                        <p>Spécialité Maison</p>
+                        <small>Cliquez pour voir sur Google Maps</small>
+                    </div>
+                    <a href="https://maps.app.goo.gl/2fgQemXrBKK3zzhZ9" target="_blank" class="gallery-overlay" rel="noopener noreferrer">
+                        <p>🥘 Spécialité Maison</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>✨</span>
+                        <p>Ambiance Soirée</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🎉</span>
+                        <p>Célébration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Avis Clients</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="reviews-content">
+                <div class="rating-summary">
+                    <div class="rating-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star half">⭐</span>
+                    </div>
+                    <h3 class="rating-score">4.1 / 5</h3>
+                    <p class="rating-count">Noté par 62 clients</p>
+                    <p class="rating-text">Une destination de confiance pour une cuisine de qualité, une ambiance et un service à Lomé.</p>
+                    <p class="rating-recommendation">Fortement recommandé par les locaux et les visiteurs.</p>
+                </div>
+                <div class="testimonials">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Excellente atmosphère, délicieuse nourriture et service impeccable. Une expérience mémorable !"</p>
+                        <p class="testimonial-author">— Client Google</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Le meilleur restaurant de Lomé ! Les cocktails sont exceptionnels et l'ambiance est parfaite pour une soirée."</p>
+                        <p class="testimonial-author">— Client Google</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Service professionnel, plats savoureux et ambiance élégante. Parfait pour un dîner romantique."</p>
+                        <p class="testimonial-author">— Client Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact & Localisation</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>Avedji, Lomé</p>
+                        <p>653J+RW Lomé, Togo</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+22871923333">+228 71 92 33 33</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <h3>Horaires</h3>
+                        <p>Ouvert tous les jours</p>
+                        <p>Fermeture à 2h00 du matin</p>
+                        <p class="hours-note">Parfait pour dîners tardifs, vie nocturne et occasions spéciales</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💬</div>
+                        <h3>Réservation</h3>
+                        <p>Réservez votre table via WhatsApp</p>
+                        <a href="https://wa.me/22871923333?text=Bonjour%2C%20je%20souhaite%20réserver%20une%20table" class="btn btn-primary" target="_blank">
+                            Réserver maintenant
+                        </a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5!2d1.2!3d6.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDA2JzAwLjAiTiAxwrAxMicwMC4wIkU!5e0!3m2!1sfr!2stg!4v1234567890"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Réservez votre table dès aujourd'hui</h2>
+            <p>Profitez d'une expérience culinaire premium</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/22871923333?text=Bonjour%2C%20je%20souhaite%20réserver%20une%20table" class="btn btn-primary btn-large" target="_blank">
+                    💬 Réservation WhatsApp
+                </a>
+                <a href="tel:+22871923333" class="btn btn-outline btn-large">
+                    📞 Nous Appeler
+                </a>
+            </div>
+            <p class="cta-note">Les tables sont limitées. Réservez maintenant et élevez votre soirée.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>THE PENTHOUSE</h3>
+                    <p>Restaurant premium à Avedji, Lomé</p>
+                    <p>Fine dining & cocktails signature</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#reviews">Avis</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📍 Avedji, Lomé</p>
+                    <p>📞 <a href="tel:+22871923333">+228 71 92 33 33</a></p>
+                    <p>🕐 Ouvert jusqu'à 2h00</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📷 Instagram</a>
+                        <a href="#" class="social-link" aria-label="Facebook">👥 Facebook</a>
+                        <a href="https://wa.me/22871923333" class="social-link" target="_blank" aria-label="WhatsApp">💬 WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 THE PENTHOUSE. Tous droits réservés.</p>
+                <p class="seo-text">Restaurant premium à Lomé | Restaurant à Avedji Lomé | Best restaurant in Lomé | Late night restaurant Lomé (open until 2 AM)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/22871923333?text=Bonjour%2C%20je%20souhaite%20réserver%20une%20table" class="whatsapp-float" target="_blank" aria-label="Réserver sur WhatsApp">
+        <span>💬</span>
+        <span class="whatsapp-text">Réserver</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

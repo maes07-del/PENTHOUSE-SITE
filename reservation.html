@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservez votre table à THE PENTHOUSE - Restaurant premium à Lomé. Expérience culinaire élégante et soirées inoubliables.">
+    <title>Réservation - THE PENTHOUSE | Restaurant Premium Lomé</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .reservation-hero {
+            background: linear-gradient(135deg, var(--color-black) 0%, var(--color-dark) 100%);
+            padding: 120px 0 80px;
+            text-align: center;
+        }
+        .reservation-hero h1 {
+            font-size: 3rem;
+            color: var(--color-gold);
+            margin-bottom: 1rem;
+        }
+        .reservation-hero p {
+            font-size: 1.3rem;
+            color: var(--color-text-light);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .why-choose {
+            background-color: var(--color-dark);
+            padding: 60px 0;
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .why-item {
+            text-align: center;
+            padding: 2rem;
+        }
+        .why-item h3 {
+            color: var(--color-gold);
+            margin-bottom: 1rem;
+        }
+        .reservation-steps {
+            background-color: var(--color-black);
+            padding: 60px 0;
+        }
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .step-item {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--color-dark);
+            border-radius: 10px;
+            border: 2px solid var(--color-gold);
+        }
+        .step-number {
+            font-size: 3rem;
+            color: var(--color-gold);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .step-item h3 {
+            color: var(--color-white);
+            margin-bottom: 1rem;
+        }
+        .reservation-cta {
+            background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-black) 100%);
+            padding: 80px 0;
+            text-align: center;
+            border-top: 2px solid var(--color-gold);
+            border-bottom: 2px solid var(--color-gold);
+        }
+        .back-home {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: var(--color-black);
+        }
+        .back-home a {
+            color: var(--color-gold);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .back-home a:hover {
+            color: var(--color-gold-light);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><a href="index.html" style="text-decoration: none; color: inherit;">THE PENTHOUSE</a></h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="index.html#about" class="nav-link">À Propos</a></li>
+                <li><a href="index.html#menu" class="nav-link">Menu</a></li>
+                <li><a href="index.html#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="index.html#reviews" class="nav-link">Avis</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Reservation Hero -->
+    <section class="reservation-hero">
+        <div class="container">
+            <h1>Réservez Votre Table à THE PENTHOUSE</h1>
+            <p>Expérience culinaire premium, ambiance élégante et soirées inoubliables à Lomé.</p>
+            <a href="https://wa.me/22871923333?text=Bonjour%20👋%0A%0AJe%20souhaite%20réserver%20une%20table%20à%20THE%20PENTHOUSE.%0A%0A📅%20Date%3A%20%0A⏰%20Heure%3A%20%0A👥%20Nombre%20de%20personnes%3A%20%0A%0AMerci%20!" class="btn btn-primary btn-large" target="_blank">
+                💬 Réserver Instantanément sur WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi Nous Choisir</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">✔</div>
+                    <h3>Expérience Culinaire Premium</h3>
+                    <p>Cuisine raffinée et cocktails signature dans un cadre élégant</p>
+                </div>
+                <div class="why-item">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">✔</div>
+                    <h3>Ouvert Jusqu'à 2h du Matin</h3>
+                    <p>Parfait pour les dîners tardifs et la vie nocturne</p>
+                </div>
+                <div class="why-item">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">✔</div>
+                    <h3>Idéal pour Rendez-vous & Célébrations</h3>
+                    <p>Ambiance romantique et cadre sophistiqué</p>
+                </div>
+                <div class="why-item">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">✔</div>
+                    <h3>Recommandé par 60+ Clients</h3>
+                    <p>Noté 4.1/5 sur Google - Destination de confiance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Steps -->
+    <section class="reservation-steps">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comment Réserver</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Un processus simple en 3 étapes</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">1️⃣</div>
+                    <h3>Cliquez sur "Réserver sur WhatsApp"</h3>
+                    <p>Ouvrez la conversation WhatsApp directement</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2️⃣</div>
+                    <h3>Envoyez Date, Heure & Nombre de Personnes</h3>
+                    <p>Remplissez les informations demandées</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3️⃣</div>
+                    <h3>Recevez la Confirmation</h3>
+                    <p>Nous vous confirmerons rapidement votre réservation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="reservation-cta">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-gold);">Les Tables Sont Limitées</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--color-text-light);">Réservez maintenant et élevez votre soirée.</p>
+            <a href="https://wa.me/22871923333?text=Bonjour%20👋%0A%0AJe%20souhaite%20réserver%20une%20table%20à%20THE%20PENTHOUSE.%0A%0A📅%20Date%3A%20%0A⏰%20Heure%3A%20%0A👥%20Nombre%20de%20personnes%3A%20%0A%0AMerci%20!" class="btn btn-primary btn-large" target="_blank">
+                💬 Réserver sur WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Back to Home -->
+    <section class="back-home">
+        <div class="container">
+            <a href="index.html">← Retour à l'accueil</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>THE PENTHOUSE</h3>
+                    <p>Restaurant premium à Avedji, Lomé</p>
+                    <p>Fine dining & cocktails signature</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html#home">Accueil</a></li>
+                        <li><a href="index.html#about">À Propos</a></li>
+                        <li><a href="index.html#menu">Menu</a></li>
+                        <li><a href="index.html#gallery">Galerie</a></li>
+                        <li><a href="index.html#reviews">Avis</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📍 Avedji, Lomé</p>
+                    <p>📞 <a href="tel:+22871923333">+228 71 92 33 33</a></p>
+                    <p>🕐 Ouvert jusqu'à 2h00</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📷 Instagram</a>
+                        <a href="#" class="social-link" aria-label="Facebook">👥 Facebook</a>
+                        <a href="https://wa.me/22871923333" class="social-link" target="_blank" aria-label="WhatsApp">💬 WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 THE PENTHOUSE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/22871923333?text=Bonjour%20👋%0A%0AJe%20souhaite%20réserver%20une%20table%20à%20THE%20PENTHOUSE.%0A%0A📅%20Date%3A%20%0A⏰%20Heure%3A%20%0A👥%20Nombre%20de%20personnes%3A%20%0A%0AMerci%20!" class="whatsapp-float" target="_blank" aria-label="Réserver sur WhatsApp">
+        <span>💬</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
